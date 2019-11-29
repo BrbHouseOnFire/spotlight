@@ -109,6 +109,30 @@ $(window).on('scroll', function() {
       if (i === 7) {
         junkID = 'iconsWrapper7';
       }
+      if (i === 8) {
+        junkID = 'iconsWrapper8';
+      }
+      if (i === 9) {
+        junkID = 'iconsWrapper9';
+      }
+      if (i === 10) {
+        junkID = 'iconsWrapper10';
+      }
+      if (i === 11) {
+        junkID = 'iconsWrapper11';
+      }
+      if (i === 12) {
+        junkID = 'iconsWrapper12';
+      }
+      if (i === 13) {
+        junkID = 'iconsWrapper13';
+      }
+      if (i === 14) {
+        junkID = 'iconsWrapper14';
+      }
+      if (i === 15) {
+        junkID = 'iconsWrapper15';
+      }
       var wrap = $('#' + junkID);
       wrap.append(createIconWrapper(k, locationArray[k]));
       $('#greetingWrapper').animate({'opacity': 0,}, 1000);
